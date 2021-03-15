@@ -1,0 +1,28 @@
+.community {
+  border-top: 1px solid black;
+  margin: 25px 0px;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.community-friends__title {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.home-gallery__title {
+  font-size: 19px;
+  padding: 15px 0px;
+  font-weight: 500;
+  border-top: var(--main-border);
+}
+.home-gallery__main div {
+  padding: 10px;
+}
+.home-gallery__contents {
+  margin-bottom: 10px;
+}
+.home-gallery__main:last-child {
+  padding-bottom: 30px;
+  display: block;
+}
